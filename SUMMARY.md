@@ -38,7 +38,7 @@
   * [৪.৩. ‘ট্রেনিং’ আর ‘টেস্ট’ ডাটা সেট](project-titanic/trg-test.md)
   * [৪.৫. অফলাইন নোট](project-titanic/offline-note.md)
   * [৪.৬. আর স্টুডিওতে ডাটা লোড ](project-titanic/data-load-r.md)
-  * [মেন্যু দিয়ে নাকি স্ক্রিপ্ট ভালো ? ](project-titanic/menu-script.md)
+  * [৪.৭. মেন্যু দিয়ে নাকি স্ক্রিপ্ট ভালো ? ](project-titanic/menu-script.md)
 * [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
   * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
   * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
