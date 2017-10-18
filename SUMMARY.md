@@ -41,7 +41,7 @@
   * [৪.৭. মেন্যু দিয়ে নাকি স্ক্রিপ্ট ভালো ? ](project-titanic/menu-script.md)
 * [পর্ব ৫: প্রেডিকশন ](prediction/README.md)
   * [৫.১. প্রথম প্রেডিকশন ](prediction/1stprediction.md)
-  * [৫.২. দ্বিতীয় প্রেডিকশন ](prediction/.md)
+  * [৫.২. দ্বিতীয় প্রেডিকশন ](prediction/2ndprediction.md)
 * [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
   * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
   * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
