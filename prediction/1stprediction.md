@@ -80,9 +80,9 @@ table\(train$Survived\)
 
 > prediction1 &lt;- data.frame \(PassengerId = test$PassengerId, Survived = test$Survived\)
 >
-> write.csv \(prediction, file = "1stprediction.csv", row.names = FALSE\)
+> write.csv \(prediction1, file = "1stprediction.csv", row.names = FALSE\)
 
-রান করুন এই দুটো লাইন। এতে তৈরি হয়ে যাবে "1stprediction.csv" নামে একটা ফাইল। সেটা পাওয়া যাবে আমাদের ওয়ার্কিং ডিরেক্টরিতে। এখন উত্তরটা খুলে দেখি এক্সেলে। অবশ্যই দেখতে হবে খুলে। ওপরের চারটা কন্ডিশন মেনেছে তো ফাইলটা?
+data.frame নামের ফাাংশনটা দুটো ভ্যারিয়েবলের হেডার সহ পাঠিয়ে দিচ্ছে prediction1 নামের ডাটাফ্রেমে। তারপর write.csv ফাাংশনটা ওই ডাটাফ্রেমকে পাঠিয়ে দিচ্ছে একটা সিএসভি ফাইলে। উত্তরপত্র হিসেবে। রান করুন এই দুটো লাইন। এতে তৈরি হয়ে যাবে "1stprediction.csv" নামে একটা ফাইল। সেটা পাওয়া যাবে আমাদের ওয়ার্কিং ডিরেক্টরিতে। এখন উত্তরটা খুলে দেখি এক্সেলে। অবশ্যই দেখতে হবে খুলে। ওপরের চারটা কন্ডিশন মেনেছে তো ফাইলটা?
 
 বাকি থাকে কি? আসল সাবমিশন?
 
@@ -108,5 +108,5 @@ table\(train$Survived\)
 
 ---
 
-https://github.com/raqueeb/mltraining/blob/master/ML-workbook/1st-prediction.R
+[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/1st-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/1st-prediction.R)
 
