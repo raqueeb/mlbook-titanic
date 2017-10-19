@@ -40,7 +40,7 @@
 
 > &gt;barplot \(table\(train$Sex\), xlab="Passenger", ylab="People", main="Train Data Passenger"\)
 
-আগের প্রেডিকশনে আপনাদের হাত পাকানোর জন্য আমরা আপডেট করি আগের রুলসেটটার। কি হতে পারে ব্যাপারটা? বলুন আপনি। মনে আছে - আমরা আগের Survived কলামটা পূর্ণ করেছিলাম শূন্য দিয়ে। যারা আগের প্রেডিকশনটা করেননি, তাদের জন্য একটু ডাবল চেক।
+আগের প্রেডিকশনে আপনাদের হাত পাকানোর জন্য আমরা আপডেট করি আগের রুলসেটটার। কি হতে পারে ব্যাপারটা? বলুন আপনি। মনে আছে - আমরা আগের Survived কলামটা পূর্ণ করেছিলাম শূন্য দিয়ে। যারা আগের প্রেডিকশনটা করেননি, তাদের জন্য একটু ডাবল চেক।![](/assets/Slide16.JPG)
 
 > &gt;test$Survived &lt;- 0
 >
@@ -62,5 +62,5 @@
 
 ---
 
-https://github.com/raqueeb/mltraining/blob/master/ML-workbook/2nd-prediction.R
+[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/2nd-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/2nd-prediction.R)
 
