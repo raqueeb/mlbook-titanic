@@ -36,7 +36,7 @@
   * [৪.১. টাইটানিকের গল্প](project-titanic/titanic-story.md)
   * [৪.২. কেন প্রজেক্ট "টাইটানিক "? ডাটা কোথায়?](project-titanic/why-titanic.md)
   * [৪.৩. ‘ট্রেনিং’ আর ‘টেস্ট’ ডাটা সেট](project-titanic/trg-test.md)
-  * [৪.৫. অফলাইন নোট](project-titanic/offline-note.md)
+  * [৪.৫. ক্যাগলের কোন কোন কার্নাল ](project-titanic/offline-note.md)
   * [৪.৬. আর স্টুডিওতে ডাটা লোড ](project-titanic/data-load-r.md)
   * [৪.৭. মেন্যু দিয়ে নাকি স্ক্রিপ্ট ভালো ? ](project-titanic/menu-script.md)
 * [পর্ব ৫: প্রেডিকশন ](prediction/README.md)
