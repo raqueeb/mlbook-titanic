@@ -68,13 +68,25 @@
 
 কেন? সেটাই তো বলবে ডাটা।
 
-চলুন তৈরি করি আজকের প্রেডিকশন। ৩য় প্রেডিকশন ওপরের ধারণা থেকে -
+চলুন তৈরি করি আজকের প্রেডিকশন। আমাদের ৩য় প্রেডিকশন ওপরের ধারণা থেকে -
 
-> test$Survived &lt;- 0            \#\# \[সবাই মারা গিয়েছেন\]
+> test$Survived &lt;- 0          \#\# \[সবাই মারা গিয়েছেন\]
 >
 > test$Survived\[test$Sex == 'female'\] &lt;- 1            \#\# \[শুধু মহিলারা বেঁচেছেন\]
 >
 > test$Survived\[test$Sex == 'female' & test$Pclass == 3 & test$Fare &gt;= 20\] &lt;- 0         \#\# \[মারা গিয়েছেন শুধু ওই মহিলারা, ৩য় শ্রেণীর আর ২০ ডলারের বেশি টিকেটের দাম\]
 
+### সাবমিশন ফাইল তৈরি
 
+---
+
+বলতে হবে কিছু? স্ক্রিপ্ট থেকে তুলে দিচ্ছি বরং। 
+
+prediction3rd &lt;- data.frame \(test$PassengerId, test$Survived\)
+
+names \(prediction3rd\) &lt;- c\("PassengerId","Survived"\)
+
+rownames \(prediction3rd\) &lt;- NULL
+
+write.csv \(prediction3rd, file = "prediction3.csv", row.names=FALSE\)
 

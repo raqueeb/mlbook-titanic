@@ -50,9 +50,9 @@
 
 ব্যাপারটা না বুঝলে ফিরে যেতে পারেন আমাদের আগের প্রেডিকশনে। মানে প্রথম প্রেডিকশনে।
 
-&gt;2ndprediction &lt;- data.frame\(PassengerId = test$PassengerId, Survived = test$Survived\)
-
-&gt;write.csv \(2ndprediction, file = "2ndprediction.csv", row.names = FALSE\)
+> &gt; 2ndprediction &lt;- data.frame\(PassengerId = test$PassengerId, Survived = test$Survived\)
+>
+> &gt; write.csv \(2ndprediction, file = "2ndprediction.csv", row.names = FALSE\)
 
 তৈরি হলো ফাইল। এখন সাবমিশনের পালা। আমাদের 2ndprediction.csv ফাইলটাকে আপলোড করে দেই প্রথম প্রেডিকশনের মতো। কোন সমস্যা?
 
