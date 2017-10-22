@@ -2,8 +2,8 @@
 
 * [মেশিন লার্নিং: হাতে কলমে](README.md)
 * [প্রথম পাতা](intro.md)
-* [কাদের জন্য বইটা?](target-audience.md)
 * [কৃতজ্ঞতা](courtesy.md)
+* [কাদের জন্য বইটা?](target-audience.md)
 * [কিভাবে পড়বেন বইটা? ](how-to-use-this-book.md)
 * [পর্ব ০: পাল্টে যাবার ঘটনা](changing-world/README.md)
   * [০.১. সিডিসি’র ওয়ার্নিং](changing-world/ccd-warning.md)
