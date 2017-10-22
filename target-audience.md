@@ -2,9 +2,11 @@
 
 ---
 
-> Numbers have an important story to tell. They rely on you to give them a voice.
+> A year spent in artificial intelligence is enough to make one believe in God.
 >
-> -– Stephen Few
+> – Alan Perlis
+
+\*
 
 ১. যারা টেকনিক্যাল ফিল্ডে কাজ করেন, যাদের নতুন প্রযুক্তিতে প্রচন্ড আগ্রহ, নতুন প্রযুক্তি দিয়ে নতুন কিছু করতে চান যারা, যারা নতুন স্কিল সেটের চাকরির বাজার খুঁজছেন - নিজেকে আপডেট রাখতে প্রযুক্তির সাথে। তাছাড়াও যারা নতুন প্রযুক্তি ব্যবহার করে দুনিয়াকে পাল্টাতে চান, যেসব স্টার্টআপদের জন্য জরুরী এই মেশিন লার্নিং।
 
