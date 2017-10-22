@@ -6,7 +6,7 @@
 
 ---
 
-> The best time to plant a tree was 20 years ago. The second best time is NOW. 
+> The best time to plant a tree was 20 years ago. The second best time is NOW.
 >
 > – Chinese proverb
 
@@ -29,6 +29,8 @@
 আমরা না জানলে স্বভাবতঃই প্রোডাক্ট হবো অন্যের। নাকি নিজেই বানাবেন প্রোডাক্ট?
 
 পৃথিবী এখন দুটো এক্সট্রিম এন্ডে।
+
+স্টার্টিং ইজ হাফ দ্য ব্যাটেল। 
 
 সিদ্ধান্ত আপনার।
 
