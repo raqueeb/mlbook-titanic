@@ -4,6 +4,7 @@
 * [প্রথম পাতা](intro.md)
 * [কাদের জন্য বইটা?](target-audience.md)
 * [কৃতজ্ঞতা](courtesy.md)
+* [কিভাবে পড়বেন বইটা? ](how-to-use-this-book.md)
 * [পর্ব ০: পাল্টে যাবার ঘটনা](changing-world/README.md)
   * [০.১. সিডিসি’র ওয়ার্নিং](changing-world/ccd-warning.md)
   * [০.২. ইন্টারকানেকশন কস্ট মডেলিং](changing-world/interconnection-cost-modeling.md)
@@ -46,9 +47,5 @@
 * [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
   * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
   * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
-* [পর্ব ৬: কি আছে সামনে?](whats-in-future/README.md)
-  * [৬.১. আসলেই কি আছে সামনে?](whats-in-future/in-future.md)
-  * [৬.২. আন-সুপারভাইজড লার্নিং ](whats-in-future/unsupervised.md)
-  * [৬.৩. রি-ইনফোর্সমেন্ট লার্নিং ](whats-in-future/re-reinforcement.md)
-* [কৃতজ্ঞতা](.md)
+* [বইটি ব্যবহার করার নিয়ম ](.md)
 
