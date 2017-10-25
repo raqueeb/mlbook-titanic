@@ -4,6 +4,7 @@
 * [প্রথম পাতা](intro.md)
 * [কৃতজ্ঞতা](courtesy.md)
 * [কাদের জন্য বইটা?](target-audience.md)
+* [কাদের জন্য নয় ](who-is-not-intended-to.md)
 * [কিভাবে পড়বেন বইটা? ](how-to-use-this-book.md)
 * [পর্ব ০: পাল্টে যাবার ঘটনা](changing-world/README.md)
   * [০.১. সিডিসি’র ওয়ার্নিং](changing-world/ccd-warning.md)
@@ -47,5 +48,5 @@
 * [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
   * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
   * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
-* [বইটি ব্যবহার করার নিয়ম ](.md)
+* কাদের জন্য নয় 
 
