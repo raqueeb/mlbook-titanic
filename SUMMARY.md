@@ -10,7 +10,7 @@
   * [০.১. সিডিসি’র ওয়ার্নিং](changing-world/ccd-warning.md)
   * [০.২. ইন্টারকানেকশন কস্ট মডেলিং](changing-world/interconnection-cost-modeling.md)
   * [০.৩. মানুষের পাশে ডাটা](changing-world/cdr-metadata.md)
-  * [০.৪. গুগল ফটোজ](changing-world/google-photos.md)
+  * [০.৪. গুগল ফটোজ, টেক্সট টু স্পিচ ](changing-world/google-photos.md)
   * [০.৫. সরকারি ওপেন ডাটা](changing-world/govt-open-data.md)
   * [০.৬ সোশ্যাল মিডিয়ার কাজ](changing-world/social-media.md)
   * [০.৭. আর্টিফিসিয়াল ইন্টেলিজেন্স - মেশিন লার্নিংএর প্রসার](changing-world/ai-industry.md)
