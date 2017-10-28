@@ -46,6 +46,7 @@
   * [৫.২. দ্বিতীয় প্রেডিকশন ](prediction/2ndprediction.md)
   * [৫.৩. তৃতীয় প্রেডিকশন ](prediction/3rdprediction.md)
   * [৫.৪. ডিসিশন ট্রি ](prediction/decision-tree.md)
+  * [৫.৫. চতুর্থ প্রেডিকশন \(মেশিন লার্নিং\)](prediction/4thprediction.md)
 * [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
   * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
   * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
