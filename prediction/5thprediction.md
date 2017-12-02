@@ -47,7 +47,7 @@ combined\_set$Title &lt;- sub\(' ', '', combined\_set$Title\)
 Col     Dr   Lady Master   Miss   Mlle     Mr    Mrs     Ms    Rev   Sir
 
 ```
- 4   8  4      61    260  3  757    197      2      8   5 
+ 4   8  4      61    260  3  757    197      2      8   5
 ```
 
 
