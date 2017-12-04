@@ -50,5 +50,99 @@ Col     Dr   Lady Master   Miss   Mlle     Mr    Mrs     Ms    Rev   Sir
  4   8  4      61    260  3  757    197      2      8   5
 ```
 
-ভালো কথা। এখানে অনেক টাইটেল এসেছে। তবে, কিছু হাতের কাজ আছে আমাদের। সমস্যা হচ্ছে - অনেকগুলো টাইটেল হয়ে গেছে এর মধ্যে। ভালোমতো দেখি তো টাইটেলগুলোর নাম। মনে হচ্ছে অনেকগুলো টাইটেল কিন্তু এক ধরনের। আসলে একই ধরনের ক্যাটাগরি, তবে আছে ভিন্ন ভিন্ন টাইটেল। এগুলোকে এক করলে কেমন হয়? আমাদের কাজে যতো বেশি ফ্যাক্টর হবে ততো হিসেবে সমস্যা। সেটাকে কমিয়ে নিয়ে আসি কিছুটা।  আমাদের দেশের মতো মহিলাদের অনেক দেশে ডাকা হয় “ম্যাডাম” নামে। ফ্রেঞ্চে সেই “ম্যাডাম”ই “মাদমোজেল”। এদিকে 'Capt', 'Don', 'Major', 'Sir' টাইটেলগুলো মধ্যম পর্যায়ের সবাই কিন্তু জনাব। সবাইকে ধরে নিলাম “স্যার” হিসেবে। 
+ভালো কথা। এখানে অনেক টাইটেল এসেছে। তবে, কিছু হাতের কাজ আছে আমাদের। সমস্যা হচ্ছে - অনেকগুলো টাইটেল হয়ে গেছে এর মধ্যে। ভালোমতো দেখি তো টাইটেলগুলোর নাম। মনে হচ্ছে অনেকগুলো টাইটেল কিন্তু এক ধরনের। আসলে একই ধরনের ক্যাটাগরি, তবে আছে ভিন্ন ভিন্ন টাইটেল। এগুলোকে এক করলে কেমন হয়? আমাদের কাজে যতো বেশি ফ্যাক্টর হবে ততো হিসেবে সমস্যা। সেটাকে কমিয়ে নিয়ে আসি কিছুটা।  আমাদের দেশের মতো মহিলাদের অনেক দেশে ডাকা হয় “ম্যাডাম” নামে। ফ্রেঞ্চে সেই “ম্যাডাম”ই “মাদমোজেল”। এদিকে 'Capt', 'Don', 'Major', 'Sir' টাইটেলগুলো মধ্যম পর্যায়ের সবাই কিন্তু জনাব। সবাইকে ধরে নিলাম “স্যার” হিসেবে। বাকিদের মধ্যে নামগুলো দেখি বরং। 'Dona', 'Lady', 'the Countess', 'Jonkheer' নামগুলো কিন্তু মহিলাদের টাইটেল। সবগুলোকে একসাথে নিয়ে আসি 'Lady'র টাইটেল এর মধ্যে। কমে এসেছে আমাদের ফ্যাক্টরগুলো।
+
+combined\_set$Title\[combined\_set$Title %in% c\('Mme', 'Mlle'\)\] &lt;- 'Mlle'
+
+combined\_set$Title\[combined\_set$Title %in% c\('Capt', 'Don', 'Major', 'Sir'\)\] &lt;- 'Sir'
+
+combined\_set$Title\[combined\_set$Title %in% c\('Dona', 'Lady', 'the Countess', 'Jonkheer'\)\] &lt;- 'Lady'
+
+
+
+\# Convert to a factor
+
+combined\_set$Title &lt;- factor\(combined\_set$Title\)
+
+
+
+\# Engineered variable: Family size
+
+combined\_set$FamilySize &lt;- combined\_set$SibSp + combined\_set$Parch + 1
+
+
+
+\# Engineered variable: Family
+
+combined\_set$Surname &lt;- sapply\(combined\_set$Name, FUN=function\(x\) {strsplit\(x, split='\[,.\]'\)\[\[1\]\]\[1\]}\)
+
+combined\_set$FamilyID &lt;- paste\(as.character\(combined\_set$FamilySize\), combined\_set$Surname, sep=""\)
+
+combined\_set$FamilyID\[combined\_set$FamilySize &lt;= 2\] &lt;- 'Small'
+
+
+
+\# Inspect new feature
+
+table\(combined\_set$FamilyID\)
+
+
+
+\# Delete erroneous family IDs
+
+famIDs &lt;- data.frame\(table\(combined\_set$FamilyID\)\)
+
+famIDs &lt;- famIDs\[famIDs$Freq &lt;= 2,\]
+
+combined\_set$FamilyID\[combined\_set$FamilyID %in% famIDs$Var1\] &lt;- 'Small'
+
+
+
+\# Convert to a factor
+
+combined\_set$FamilyID &lt;- factor\(combined\_set$FamilyID\)
+
+
+
+\# Split back into test and train sets
+
+train &lt;- combined\_set\[1:891,\]
+
+test &lt;- combined\_set\[892:1309,\]
+
+
+
+\# Build a new tree with our new features
+
+fit &lt;- rpart\(Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked + Title + FamilySize + FamilyID,
+
+             data=train, method="class"\)
+
+
+
+\# Install and load required packages for fancy decision tree plotting
+
+
+
+library\(rpart\)
+
+library\(rattle\)
+
+library\(rpart.plot\)
+
+library\(RColorBrewer\)
+
+             
+
+fancyRpartPlot\(fit\)
+
+
+
+\# Now let's make a prediction and write a submission file
+
+prediction\_5th &lt;- predict\(fit, test, type = "class"\)
+
+submit &lt;- data.frame\(PassengerId = test$PassengerId, Survived = prediction\_5th\)
+
+write.csv\(submit, file = "prediction5th.csv", row.names = FALSE\)
 
