@@ -8,15 +8,9 @@
 
 বুঝলাম না সংজ্ঞাটা।
 
-আচ্ছা, ছবি দেবো কি একটা?
+আচ্ছা, ছবি দেবো কি একটা?![](/assets/def.png)
 
 ---
-
----
-
-> Most of human and animal learning is unsupervised learning. If intelligence was a cake, unsupervised learning would be the cake, supervised learning would be the icing on the cake, and reinforcement learning would be the cherry on the cake. We know how to make the icing and the cherry, but we don’t know how to make the cake. We need to solve the unsupervised learning problem before we can even think of getting to true AI.
->
-> -- Yan Lecun, Director of AI research, Facebook
 
 একটু ঘুরপাক খেয়ে আসি অন্যভাবে। এই ‘মেশিন লার্নিং’ নিয়ে। কি জিনিস এটা? মানুষ যাই আবিস্কার করেছে, তা করেছে প্রকৃতির সৃষ্টিকে দেখে। বাঁজপাখির ওড়া দেখে উড়ুক্কুযান, বাদুড় দেখে সাবমেরিনের ‘সোনার’ - আরো কতো কি! তবে, মানুষ মানেই অলস। \*\* আমার মতো কিছুটা। অন্যকে দিয়ে কাজ করাতে ওস্তাদ। তক্কে তক্কে ছিলো বটে। যন্ত্রকে দিয়ে কাজ করানো নিয়ে। মানুষ ‘ইন্সট্রাকশন’ দেয়, যন্ত্র কাজ করে। ঠিক আছে সবই। যেমন - প্রোগ্রাম লেখে মানুষ, কাজ করে বেকুব যন্ত্র। তো, প্রোগ্রাম লেখাও তো কষ্টের। কি করা যায়?
 
