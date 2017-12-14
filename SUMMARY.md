@@ -1,6 +1,6 @@
 # Summary
 
-* [মেশিন লার্নিং: হাতে কলমে](README.md)
+* [হাতে কলমে মেশিন লার্নিং](README.md)
 * [প্রথম পাতা](intro.md)
 * [কৃতজ্ঞতা](courtesy.md)
 * [কাদের জন্য বইটা?](target-audience.md)
