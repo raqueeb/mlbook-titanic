@@ -49,8 +49,7 @@
   * [৫.৪. ডিসিশন ট্রি ](prediction/decision-tree.md)
   * [৫.৫. চতুর্থ প্রেডিকশন \(মেশিন লার্নিং\)](prediction/4thprediction.md)
   * [৫.৬. পঞ্চম প্রেডিকশন](prediction/5thprediction.md)
-* [পর্ব ৫: পাইথন দিয়ে ‘ক্যাগল’ প্রতিযোগিতা](python-titanic/README.md)
-  * [৫.১. পাইথন কেন?](python-titanic/why-python.md)
-  * [৫.২. পাইথন নিয়ে খুঁটিনাটি ](python-titanic/python-setup.md)
-* কাদের জন্য নয় 
+* [পর্ব ৬: কি আছে সামনে?](whats-in-future/README.md)
+  * [৬.১. কোথায় যাচ্ছি সামনে?](whats-in-future/in-future.md)
+  * [৬.২. সামনের বই ](whats-in-future/new-book.md)
 
