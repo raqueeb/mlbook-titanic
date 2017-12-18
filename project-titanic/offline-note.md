@@ -24,7 +24,7 @@
 
 [https://www.kaggle.com/vincentlugat/titanic-data-analysis-rf-prediction-0-81818](https://www.kaggle.com/vincentlugat/titanic-data-analysis-rf-prediction-0-81818)
 
-আর, আমার পছন্দের ট্রেভর স্টিফেনস - বিশেষ করে "ফিচার ইঞ্জিনিয়ারিং" আর "র‌্যান্ডম ফরেস্টের" জন্য!
+আর, আমার পছন্দের ট্রেভর স্টিফেনস - বিশেষ করে "ফিচার ইঞ্জিনিয়ারিং" আর "র‌্যান্ডম ফরেস্টের" জন্য! আমি নিজে নতুন করে চাকা \(রিইনভেটিং দ্য হুইল\) আবিষ্কার করার মানুষ নই। নতুন নতুন জিনিস দেখাবো আমাদের মিটআপে। বছরে দুবার। না আসতে পারলে সমস্যা নেই। ভিডিও থাকবে সাইটে।
 
 [https://www.kaggle.com/c/titanic/discussion/6821\#37325](https://www.kaggle.com/c/titanic/discussion/6821#37325)
 
