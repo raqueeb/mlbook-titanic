@@ -4,13 +4,13 @@
 
 > "Back from the boats," \[Captain Harrington\] shouts, catchin' up the hand-spike. "The first man that touches a boat I'll brain. Women and children first, men."...
 >
-> "Timbs," says he, "give my love to my wife and boy, if I never see 'em again. God bless ye, men."...
+> "Timbs," says he, "give my love to my wife and boy, if I never see 'em again. God bless ye, men."...
 >
-> \[Captain Eldad\] paused, wiping away with his sleeve the salt tears which the simple epic of a brave man's death brought to his eyes. "That was the story, and them was the last words Timbs brought home to your mother ... An' that's the way he died. Women and children saved. That's a comfort...But he died...
+> \[Captain Eldad\] paused, wiping away with his sleeve the salt tears which the simple epic of a brave man's death brought to his eyes. "That was the story, and them was the last words Timbs brought home to your mother ... An' that's the way he died. Women and children saved. That's a comfort...But he died...
 >
-> "It was a manly way to leave the world," \[John Harrington\] said. "Life is sweet to me with the memory of such a father."
+> "It was a manly way to leave the world," \[John Harrington\] said. "Life is sweet to me with the memory of such a father."
 >
-> — William Douglas O'Connor, Harrington: A Story of True Love \(1860\)
+> — William Douglas O'Connor, Harrington: A Story of True Love \(1860\)
 
 এখন আমরা আলাপ করবো মেশিন লার্নিং এর সবচেয়ে গুরুত্বপূর্ণ ব্যাপারটা নিয়ে। জিনিসটার নাম “ফিচার ইঞ্জিনিয়ারিং”। আমার মতে - এই জিনিসটাই শুধুমাত্র মানুষের সাথে কানেক্টেড, বিশেষ করে আমাদের মেশিন লার্নিং এর ক্ষেত্রে। আর, এখানেই দরকার মানুষের মুনশিয়ানা। মানুষ কোথায় এখনো সুপেরিয়র - সেটা আসবে এই ফীচার ইঞ্জিনিয়ারিংয়ে। মানুষের ইনটিউশনকে কাজে লাগাবো এখানে। ডাটার মধ্যে মানুষই ঠিক বের করতে পারবে কোন জিনিসটা ক্লিক করবে। বের করে নিয়ে আসবে ডাটার এমন কিছু ফীচার - যা এগিয়ে দেবে আমাদের তুখোড় প্রেডিকশন মডেল। এই হিউমান এলিমেন্টের কারণেই একটা মেশিন লার্নিং মডেল হতে পারে অজেয়। আগেই বলেছি - মানুষতো আর যন্ত্র নয়, সে কারণে মানুষের ভেতরের ‘ইনটুইশন’ নিয়ে কাজ করব এই ফিচারে ইঞ্জিনিয়ারিং এ। আপনারাই বলবেন কোন ফীচারটা এই মডেলের জন্য জরুরি। ডাটা হয়তোবা বলবে একটা জিনিস - তবে আসল সিদ্ধান্ত নেবে মানুষ।
 
@@ -141,11 +141,11 @@ library\(RColorBrewer\)
 
 fancyRpartPlot\(fit\)![](/assets/Rplot23.png)এখানে একটা জিনিস লক্ষ্য করেছেন কি? আমাদের নতুন ভ্যারিয়েবলগুলো কিন্তু দখল করে নিয়েছে ওপরের স্পটগুলো। মানে ডিসিশন ট্রি কিছুটা "বায়াসড" বেশি লেভেলঅলা ফ্যাক্টরগুলোতে। মনে আছে FamilyID এর লেভেল কতগুলো? ৬২টা। বেশি লেভেলে এই সমস্যা।
 
-এখন আমাদের ডাটা সাবমিশনের পালা। চলে যাই ক্যাগল সাইটে। তৈরি করে ফেলি আমাদের পঞ্চম প্রেডিকশন। ওমা, এ তো দেখি বিশাল অবস্থা! প্রায় ৮০ শতাংশ অ্যাকুরেসিতে পৌছে গেছি আমরা। ভালো না? আমাদের লিডারবোর্ডে এ অনেক ওপরে উঠেছি আমরা। বিশাল বড় লাফ দিয়েছি একটা। সত্যিকার অর্থে এখানেই ফিচার ইঞ্জিনিয়ারিং এর সার্থকতা।
+এখন আমাদের ডাটা সাবমিশনের পালা। চলে যাই ক্যাগল সাইটে। তৈরি করে ফেলি আমাদের পঞ্চম প্রেডিকশন। ওমা, এ তো দেখি বিশাল অবস্থা! প্রায় ৮০ শতাংশ অ্যাকুরেসিতে পৌছে গেছি আমরা। মানে ৭৯.৯%! ভালো না? আমাদের লিডারবোর্ডে এ অনেক ওপরে উঠেছি আমরা। বিশাল বড় লাফ দিয়েছি একটা। সত্যিকার অর্থে এখানেই ফিচার ইঞ্জিনিয়ারিং এর সার্থকতা।
 
 prediction\_5th &lt;- predict\(fit, test, type = "class"\)
 
 submit &lt;- data.frame\(PassengerId = test$PassengerId, Survived = prediction\_5th\)
 
-write.csv\(submit, file = "prediction5th.csv", row.names = FALSE\)![](/assets/5th.png)আমার কিছু গল্প আছে এখানে। আপনারা ইচ্ছে করলে আরো অনেকগুলো "ফিচার ইঞ্জিনিয়ারিং"য়ের ধারণা ব্যবহার করতে পারেন এই অংশে। আর সে কারণেই দিয়েছি অনেকগুলো ক্যাগল কার্নেল। এখানেই একজন মেশিন লার্নিং এক্সপার্টের বিশাল খেলার জায়গা। ব্যবহার করুন আপনার ইনটুইশনকে। মানুষের বিশেষত্ত্বকে। কথা বলুন সেই ডোমেইনের এক্সপার্টের সাথে। হবে না মানে, হতে হবে অবশ্যই! আর সে কারণে "ফিচার ইঞ্জিনিয়ারিং" এখনো মেশিন লার্নিং একটা বড় ভাগ জুড়ে আছে।
+write.csv\(submit, file = "prediction5th.csv", row.names = FALSE\)![](/assets/submit5.png)আমার কিছু গল্প আছে এখানে। আপনারা ইচ্ছে করলে আরো অনেকগুলো "ফিচার ইঞ্জিনিয়ারিং"য়ের ধারণা ব্যবহার করতে পারেন এই অংশে। আর সে কারণেই দিয়েছি অনেকগুলো ক্যাগল কার্নেল। এখানেই একজন মেশিন লার্নিং এক্সপার্টের বিশাল খেলার জায়গা। ব্যবহার করুন আপনার ইনটুইশনকে। মানুষের বিশেষত্ত্বকে। কথা বলুন সেই ডোমেইনের এক্সপার্টের সাথে। হবে না মানে, হতে হবে অবশ্যই! আর সে কারণে "ফিচার ইঞ্জিনিয়ারিং" এখনো মেশিন লার্নিং একটা বড় ভাগ জুড়ে আছে।
 
