@@ -62,3 +62,9 @@ fancyRpartPlot\(mytree1\)
 
 আচ্ছা, পরের মডেলে বয়স আর ক্লাস \(Pclass\)কে নিয়ে প্লট করতে পারবেন কি?
 
+### ব্যবহৃত গিটহাব স্ক্রিপ্ট \(অনলাইন\)
+
+---
+
+https://github.com/raqueeb/mltraining/blob/master/ML-workbook/decision-tree.R 
+
