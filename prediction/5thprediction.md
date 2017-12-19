@@ -158,16 +158,22 @@ test &lt;- combined\_set\[892:1309,\]
 
 শেষ হয়ে এসেছে আমাদের ঝামেলার অংশগুলো। এখন নতুন করে ডিসিশন ট্রি তৈরি করার পালা। এই ডিসিশন ট্রি তৈরি হবে আমাদের নতুন ফিচারগুলো দিয়ে। সেখানেই ফিচার ইঞ্জিনিয়ারিং এর সার্থকতা।
 
+library\(rpart\)   \[আগেই ইনস্টল করা আছে এই জিনিস, কিন্তু। না হলে install.packages\('rpart'\) এবং install.packages\('rpart.plot'\)\]
+
+library\(rpart.plot\)
+
+চালাই আমাদের "rpart" ---&gt; ডিসিশন ট্রি'র জন্য।
+
 fit &lt;- rpart\(Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked + Title + FamilySize + FamilyID,  
  data=train, method="class"\\)
 
 চলুন আমাদের ডিসিশন ট্রিটা দেখি প্লট করে। এতো দেখি ভয়ংকর অবস্থা! দেখা যাচ্ছে আমাদের তৈরি নতুন ফিচারগুলোই মাতবরি করছে আমাদের এই ডিসিশন ট্রিতে।
 
-library\(rpart\)   \[আগেই ইনস্টল করা আছে এই জিনিস, কিন্তু। না হলে install.packages\('rpart'\) এবং install.packages\('rpart.plot'\)\]
+
 
 library\(rattle\)
 
-library\(rpart.plot\)
+
 
 library\(RColorBrewer\)
 
