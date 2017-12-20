@@ -2,10 +2,6 @@
 
 ---
 
-> "Back from the boats," \[Captain Harrington\] shouts, catchin' up the hand-spike. "The first man that touches a boat I'll brain. Women and children first, men."...
->
-> "Timbs," says he, "give my love to my wife and boy, if I never see 'em again. God bless ye, men."...
->
 > \[Captain Eldad\] paused, wiping away with his sleeve the salt tears which the simple epic of a brave man's death brought to his eyes. "That was the story, and them was the last words Timbs brought home to your mother ... An' that's the way he died. Women and children saved. That's a comfort...But he died...
 >
 > "It was a manly way to leave the world," \[John Harrington\] said. "Life is sweet to me with the memory of such a father."
