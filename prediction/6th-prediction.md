@@ -22,7 +22,7 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's
 
 দ্বিতীয় পন্থা আরো মজার। মনে আছে “ডিসিশন ট্রি’র কথা? “ডিসিশন ট্রি’ তো জানে অন্য ডাটার কথা। সেখান থেকে মিলিয়ে দেবে সে। কেমন হয় সেটা?  কৈ এর কৈ ভাঁজা। “is.na\(\)” এর উল্টোটা হচ্ছে “!is.na\(\)”। মানে “NA” হওয়া যাবে না। method="anova", আমরা ক্লাসিফাই করছি না - বরং দরকার আমাদের কন্টিনিউয়াস ভ্যারিয়েবল। চলুন বাড়তে দেই আমাদের নতুন ডিসিশন ট্রি। বাকি বয়সগুলো থেকে তৈরি করি আমাদের নতুন বয়স। বিশেষ করে যেখানে বয়সের ঘর ফাঁকা। মজা না?
 
-&gt; FillAge &lt;- rpart\(Age ~ Pclass + Mother + FamilySize + Sex + SibSp + Parch + Deck + Fare + Embarked + Title + FamilyID + FamilySize, data=combined\_set\[!is.na\(combined\_set$Age\),\], method="anova"\)
+&gt; FillAge &lt;- rpart\(Age ~ Pclass + Mother + FamilySize + Sex + SibSp + Parch + Deck + Fare + Embarked + Title + FamilyID + FamilySize + FamilySizeGroup, data=combined\_set\[!is.na\(combined\_set$Age\),\], method="anova"\)
 
 ডিসিশন ট্রি’র আউটপুট নিয়ে সেটা পাঠিয়ে দিলাম প্রেডিক্ট ফাংশনে। এরপর সেটাকে ভর্তি করতে বললাম যেখানে কোন ভ্যালু নেই।
 
@@ -93,4 +93,12 @@ library\('lattice'\)
 এরপর কমান্ড দেই প্যাটার্নের। কোন মিসিং ভ্যালু নেই আর। অল সেট আমরা!
 
 &gt;md.pattern\(combined\_set\)![](/assets/mice.png)আমাদের কাজ প্রায় শেষ। এখন একটা প্রেডিকশনের পালা। করবেন কি আপনি? পুরানো ডিসিশন ট্রি দিয়েই তবে নতুন "মিসিং ডাটা" ছাড়া ডাটা দিয়ে। আগে যা করেছি সেখানে অনেক ডাটা "মিসিং" ছিলো। গিটহাবের স্ক্রিপ্টটা দেখবেন ভালো করে। আসল ঘটনা ওই স্ক্রিপ্টে। সত্যি বলছি। অনেক কারুকাজ আছে ওখানে।
+
+### ব্যবহৃত গিটহাব স্ক্রিপ্ট \(অনলাইন\)
+
+---
+
+https://github.com/raqueeb/mltraining/blob/master/ML-workbook/6th-prediction.R
+
+কি হলো? খুব একটা এগুতে পারিনি আমরা লিডারবোর্ডে। কেন? ডাটা তো সব ভর্তি। কি হলো তাহলে? সব ভ্যারিয়েবল কি নেয়া ঠিক হয়েছে?
 
