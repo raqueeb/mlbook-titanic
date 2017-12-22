@@ -45,7 +45,7 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
 &gt; summary\(combined\_set$Embarked\)
 
 ```
-  C       Q        S 
+  C       Q        S
 ```
 
 2   270  123    914
@@ -60,8 +60,7 @@ embarked ----&gt; কোথা থেকে উঠেছেন, বিশেষ 
 
 \[1\]  62         830          -------&gt; দুটো ঘরে। আমাদের আগের হিসেবে দেখা গেছে S = Southampton থেকে মানুষ উঠেছেন বেশি।
 
-combined\_set$Embarked\[c\(62,830\)\] = "S"  
-     ------&gt; তাহলে S = Southampton দিয়েই ভর্তি করি ফাঁকা ঘরটা।
+combined\_set$Embarked\[c\(62,830\)\] = "S"  ------&gt; তাহলে S = Southampton দিয়েই ভর্তি করি ফাঁকা ঘরটা।
 
 combined\_set$Embarked &lt;- factor\(combined\_set$Embarked\)  --------&gt; পাল্টে নিয়ে আসি আমাদের ফ্যাক্টরে।
 
