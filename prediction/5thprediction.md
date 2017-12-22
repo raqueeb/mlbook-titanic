@@ -38,6 +38,14 @@ combined\_set$Name &lt;- as.character\(combi$Name\)
 >
 > combined\_set$Child\[combined\_set$Age &gt;= 14\] &lt;- 'Adult'
 
+একটু দেখি কি অবস্থা? মানে কে কি অবস্থায় আছে?
+
+table\(combined\_set$Child, combined\_set$Survived\)
+
+ফিরিয়ে নিয়ে আসি ফ্যাক্টরে। এই কাজটা করতে হবে প্রায় সব জায়গায়।
+
+combined\_set$Child &lt;- factor\(combined\_set$Child\)
+
 ### মা
 
 ---
@@ -47,6 +55,14 @@ combined\_set$Name &lt;- as.character\(combi$Name\)
 > combined\_set$Mother &lt;- 'Not Mother'
 >
 > combined\_set$Mother\[combined\_set$Sex == 'female' & combined\_set$Parch &gt; 0 & combined\_set$Age &gt; 18\] &lt;- 'Mother'
+
+আগের মতো - একটু দেখি কি অবস্থা? মানে কে কি অবস্থায় আছে? সংখ্যায়।
+
+table\(combined\_set$Mother, combined\_set$Survived\)
+
+ফ্যাক্টরে আনতে হবে এখানে।
+
+combined\_set$Mother &lt;- factor\(combined\_set$Mother\)
 
 ### টাইটেল
 
