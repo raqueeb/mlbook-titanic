@@ -194,7 +194,7 @@ library\(rpart\)   \[আগেই ইনস্টল করা আছে এই 
 
 library\(rpart.plot\)
 
-চালাই আমাদের "rpart" ---&gt; ডিসিশন ট্রি'র জন্য।
+চালাই আমাদের "rpart" ---&gt; ডিসিশন ট্রি'র জন্য। মনে রাখতে হবে বেশি ভ্যারিয়েবল মানে ভালো অ্যাক্যুরেসি নয়। আপনাদের সুবিধার জন্য বেশি বেশি ভ্যারিয়েবল নেয়া হয়েছে। 
 
 > fit &lt;- rpart\(Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked + Title + FamilySize + FamilyID,  
 >  data=train, method="class"\\)
