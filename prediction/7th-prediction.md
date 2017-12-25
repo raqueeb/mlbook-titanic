@@ -107,7 +107,7 @@ write.csv\(predict7th, file = "tree5.csv", row.names = FALSE\)
 
 ---
 
-আমি আশা করি এই স্ক্রিপ্টগুলো প্রিন্ট করে আপনার সাথে নিয়ে ঘুরবেন। একমাস সাথে নিয়ে ঘুরলে স্ক্রিপ্টগুলোর "অপ্টিমাইজ" করার আইডিয়া চলে আসবে আপনার মাথায়।  
+আমি আশা করি এই স্ক্রিপ্টগুলো প্রিন্ট করে আপনার সাথে নিয়ে ঘুরবেন। একমাস সাথে নিয়ে ঘুরলে স্ক্রিপ্টগুলোর "অপ্টিমাইজ" করার আইডিয়া চলে আসবে আপনার মাথায়। আমি নিজেও বিভিন্ন স্ক্রিপ্ট পকেটে নিয়ে ঘুরি। 
 
 [https://github.com/raqueeb/mltraining/blob/master/ML-workbook/7th-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/7th-prediction.R)
 
