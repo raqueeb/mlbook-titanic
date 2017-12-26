@@ -34,7 +34,7 @@
   * [৩.১. "আর" + "আর" ষ্টুডিও](r-environment/r-r-studio.md)
   * [৩.২. "আর" ষ্টুডিওর কিছু খুঁটিনাটি](r-environment/r-studio-installation.md)
   * [৩.৩. প্রজেক্ট টাইটানিক + 'আর' ষ্টুডিও  ](r-environment/r-commands.md)
-  * [৩.৪. গিটহাব স্ক্রিপ্ট](project-titanic/github-script.md)
+  * [৩.৪. প্রজেক্টের গিটহাব স্ক্রিপ্ট](project-titanic/github-script.md)
 * [পর্ব ৪: প্রজেক্ট টাইটানিক: বিপর্যয়ে মেশিন লার্নিং](project-titanic/README.md)
   * [৪.১. টাইটানিকের গল্প](project-titanic/titanic-story.md)
   * [৪.২. কেন প্রজেক্ট "টাইটানিক "? ডাটা কোথায়?](project-titanic/why-titanic.md)
