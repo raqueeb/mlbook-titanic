@@ -46,13 +46,29 @@ col=c\("yellow", "black"\), legend=FALSE\)
 
 ![](/assets/bar1.jpg)![](/assets/bar2.jpg)
 
+আপনি বলুন, কি বলছে ছবিগুলো? প্রথম কয়েকটা ছবির মানে এমন হতে পারে; \(প্রথম প্রেডিকশনে কিন্তু জানা গিয়েছে ব্যাপারগুলো\)
+
+১. বেশিরভাগ যাত্রী মারা গিয়েছেন 
+
+২. দ্বিগুনেরও বেশি ৩য় শ্রেণীর যাত্রী, ১ম + ২য় মিলিয়ে
+
+৩. পুরুষ যাত্রী থেকে মহিলা যাত্রী অনেক অনেক কম
+
+৪. ২০ থেকে ৩০ বছর বয়সের যাত্রীর সংখ্যা অনেক অনেক বেশি। এর মানে উন্নত জীবনের খোঁজে তারা যাচ্ছিলেন মার্কিন যুক্তরাষ্ট্রে।
+
+৫. একা যাত্রীর সংখ্যাই বেশি 
+
+৬. বেশিরভাগের ভাড়া ৪০ ডলারের মধ্যে
+
+৭. বেশিরভাগ যাত্রী উঠেছিলেন সাউথহ্যাম্পটন থেকে
+
 ### ব্যবহৃত গিটহাব স্ক্রিপ্ট \(অনলাইন\)
 
 ---
 
-https://github.com/raqueeb/mltraining/blob/master/ML-workbook/data-munging.R
+[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/data-munging.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/data-munging.R)
 
 আর কার্ট ওয়েরলির গিটহাব স্ক্রিপ্ট, ভালো লিখেছেন উনি
 
-https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md
+[https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md](https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md)
 
