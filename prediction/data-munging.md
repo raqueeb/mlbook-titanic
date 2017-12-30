@@ -30,21 +30,18 @@ col=c\("yellow", "black"\), legend=FALSE\)
 
 মজার কথা হচ্ছে এখানে বয়সের প্রায় ২০% ডাটা আগে থেকেই নেই। ৭০% এর মতো যাত্রীদের কোন কেবিনের সাথে কানেক্ট করা যাচ্ছে না। এগুলো কিন্তু একটা চ্যালেঞ্জ। সেগুলো আমরা সামনে সামলে নেবো। আগের মতো আবার কিছু "বারপ্লট" করি আমাদের ভ্যারিয়েবলগুলোর ওপর। ওই যে কথা আছে না, বাঁচতে হলে জানতে হবে। পরের প্রতিটা বারপ্লট কিন্তু প্রতিটি আলাদাভাবে জেনারেট করা। আপনাদের সুবিধার জন্য একসাথে করা। কার্ট ওয়েরলিকে ধন্যবাদ। দুটো বারপ্লটের কোড দেয়া হলো এখানে। বাকিগুলো দেয়া আছে গিটহাবের পাতায়। সেটার লিংক দেয়া আছে প্রতিটা চ্যাপ্টারের নিচে।
 
-> barplot\(table\(train$Survived\),  
->        \# train ডাটাফ্রেমে Survived কলামের বারপ্লট
->
 > ```
+>     barplot(table(train$Survived),      # train ডাটাফ্রেমে Survived কলামের বারপ্লট
+>     
 >     names.arg = c("Perished", "Survived"),    # বারপ্লটগুলোর নিচে বোঝার জন্য কিছু নাম
 >
->     main="Survived (passenger fate)", col="black")    # সেটার ওপরে কি টাইটেল হবে? 
+>     main="Survived (passenger fate)", col="black")    # সেটার ওপরে কি টাইটেল হবে?
 > ```
 >
-> barplot\(table\(train$Pclass\),
->
 > ```
->     names.arg = c\("first", "second", "third"\),
->
->     main="Pclass \(passenger traveling class\)", col="firebrick"\)
+>     barplot(table(train$Pclass), 
+>         names.arg = c("first", "second", "third"),
+>         main="Pclass (passenger traveling class)", col="firebrick")
 > ```
 
 ![](/assets/bar1.jpg)![](/assets/bar2.jpg)
