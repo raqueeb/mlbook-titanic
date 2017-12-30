@@ -44,7 +44,7 @@
   * [৪.৭. মেন্যু দিয়ে নাকি স্ক্রিপ্ট ভালো ? ](project-titanic/menu-script.md)
 * [পর্ব ৫: প্রেডিকশন ](prediction/README.md)
   * [৫.১. প্রথম প্রেডিকশন ](prediction/1stprediction.md)
-  * [৫.২.ডাটা ভিজ্যুয়ালাইজেশন ](prediction/data-munging.md)
+  * [৫.২. ডাটা ভিজ্যুয়ালাইজেশন ](prediction/data-munging.md)
   * [৫.৩. দ্বিতীয় প্রেডিকশন](prediction/2ndprediction.md)
   * [৫.৪. তৃতীয় প্রেডিকশন](prediction/3rdprediction.md)
   * [৫.৫. ডিসিশন ট্রি ](prediction/decision-tree.md)
