@@ -46,3 +46,13 @@ col=c\("yellow", "black"\), legend=FALSE\)
 
 ![](/assets/bar1.jpg)![](/assets/bar2.jpg)
 
+### ব্যবহৃত গিটহাব স্ক্রিপ্ট \(অনলাইন\)
+
+---
+
+https://github.com/raqueeb/mltraining/blob/master/ML-workbook/data-munging.R
+
+আর কার্ট ওয়েরলির গিটহাব স্ক্রিপ্ট, ভালো লিখেছেন উনি
+
+https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md
+
