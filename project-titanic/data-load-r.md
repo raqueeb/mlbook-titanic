@@ -1,4 +1,4 @@
-### ৪.৬. আর স্টুডিওতে ডাটা লোড
+### "আর" স্টুডিওতে ডাটা লোড
 
 ---
 
@@ -8,7 +8,7 @@
 
 ১. প্রজেক্ট টাইটানিকের ওয়ার্কিং ডাইরেক্টরি = "Documents\datasets\titanic" ।
 
-২. স্ক্রিপ্ট ডাউনলোড = সাইট "গিটহাব" https://github.com/raqueeb/mltraining/&gt; ক্লোন করে ডাউনলোড &gt; আনজিপ &gt; ML-workbookএর সব ফাইল
+২. স্ক্রিপ্ট ডাউনলোড = সাইট "গিটহাব" [https://github.com/raqueeb/mltraining/&gt](https://github.com/raqueeb/mltraining/&gt); ক্লোন করে ডাউনলোড &gt; আনজিপ &gt; ML-workbookএর সব ফাইল
 
 ৩. ডাটাসেট ডাউনলোড = সাইট ক্যাগল = train.csv এবং test.csv
 
