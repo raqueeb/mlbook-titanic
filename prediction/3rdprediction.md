@@ -80,13 +80,13 @@ _কেন? সেটাই তো বলছে ডাটা।_
 
 নতুন করে বলতে হবে কিছু? স্ক্রিপ্ট থেকে তুলে দিচ্ছি বরং।
 
-prediction3rd &lt;- data.frame \(test$PassengerId, test$Survived\)
-
-names \(prediction3rd\) &lt;- c\("PassengerId","Survived"\)
-
-rownames \(prediction3rd\) &lt;- NULL
-
-write.csv \(prediction3rd, file = "prediction3.csv", row.names=FALSE\)
+> prediction3rd &lt;- data.frame \(test$PassengerId, test$Survived\)
+>
+> names \(prediction3rd\) &lt;- c\("PassengerId","Survived"\)
+>
+> rownames \(prediction3rd\) &lt;- NULL
+>
+> write.csv \(prediction3rd, file = "prediction3.csv", row.names=FALSE\)
 
 ### ক্যাগলে আপলোড
 
