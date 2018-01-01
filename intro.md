@@ -10,7 +10,7 @@
 >
 > – Chinese proverb
 
-* ![](/assets/mlproduct.jpg)
+![](/assets/mlproduct.jpg)
 
 এই বইটা তো নাও নিতে পারতেন হাতে?
 
