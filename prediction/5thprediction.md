@@ -148,7 +148,29 @@ Col     Dr   Lady Master   Miss   Mlle     Mr    Mrs     Ms    Rev   Sir
 
 ---
 
-টিকেট নিয়ে চমৎকার কাজ করার স্কোপ আছে। ছেড়ে দিলাম আপনার হাতে। না হলে সমস্যা নেই। সবকিছু যে নিতে হবে এটাই বা বলেছে কে?
+টিকেট নিয়ে চমৎকার কাজ করার স্কোপ আছে। ছেড়ে দিলাম আপনার হাতে। না হলে সমস্যা নেই। সবকিছু যে নিতে হবে এটাই বা বলেছে কে? আচ্ছা, তাহলে ভাড়া নিয়ে কাজ করি?
+
+### ভাড়ার গ্রূপিং
+
+---
+
+মনে আছে ডাটা ভিজ্যুয়ালাইজেশনের ছবিগুলোর কথা? বেশিরভাগ যাত্রীই কিন্তু ভাড়া গুনেছিলেন ৫০ ডলারের কিছুটা কম। খুব অল্প মানুষই আসলে ৫০০ ডলারের বেশি খরচ করেছে এই যাত্রার জন্য। আরেকটা ভাগ ছিলেন যারা ২০০ থেকে ৫০০ ডলারের মতো খরচ করেছিলেন। আমাদের হিসেবের জন্য; 
+
+> combined\_set$Fare\_type\[combined\_set$Fare&lt;50\]&lt;-"low"
+>
+> combined\_set$Fare\_type\[combined\_set$Fare&gt;50 & combined\_set$Fare&lt;=100\]&lt;-"med1"
+>
+> combined\_set$Fare\_type\[combined\_set$Fare&gt;100 & combined\_set$Fare&lt;=150\]&lt;-"med2"
+>
+> combined\_set$Fare\_type\[combined\_set$Fare&gt;150 & combined\_set$Fare&lt;=500\]&lt;-"high"
+>
+> combined\_set$Fare\_type\[combined\_set$Fare&gt;500\]&lt;-"vhigh"
+
+এগ্রিগেট করে দেখি কি অবস্থা?
+
+aggregate\(Survived~Fare\_type, data=combined\_set,mean\) 
+
+![](/assets/type.PNG)
 
 ### পরিবারের সদস্য সংখ্যা
 
