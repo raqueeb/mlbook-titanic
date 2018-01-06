@@ -56,4 +56,5 @@
   * [৬.১. কি শিখলাম আমরা?](whats-in-future/learning-so-far.md)
   * [৬.২. কোথায় যাচ্ছি  এর পর?](whats-in-future/in-future.md)
   * [৬.৩. সামনের বই ](whats-in-future/new-book.md)
+  * [৬.৪. যোগাযোগের মাধ্যম ](whats-in-future/communications.md)
 
