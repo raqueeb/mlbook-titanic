@@ -12,5 +12,15 @@
 
 পরের বই
 
-**হাতে কলমে মেশিন লার্নিং ২**
+**হাতে কলমে মেশিন লার্নিং ২ **\(চলছে লেখা\)
+
+[https://www.gitbook.com/read/book/raqueeb/mlbook-titanic-py](https://www.gitbook.com/read/book/raqueeb/mlbook-titanic-py)
+
+আপনাদের ইনপুট প্রয়োজন। 
+
+---
+
+এই বইয়ের ওপর ইনপুট দিয়ে যারা আমাকে বাঁধিত করেছেন, তাঁদেরকে অসংখ্য ধন্যবাদ।
+
+১. 
 
