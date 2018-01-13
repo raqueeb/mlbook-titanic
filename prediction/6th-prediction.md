@@ -22,19 +22,19 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's
 
 দ্বিতীয় পন্থা আরো মজার। মনে আছে “ডিসিশন ট্রি’র কথা? “ডিসিশন ট্রি’ তো জানে অন্য ডাটার কথা। সেখান থেকে মিলিয়ে দেবে সে। কেমন হয় সেটা?  কৈ এর কৈ ভাঁজা। “is.na\(\)” এর উল্টোটা হচ্ছে “!is.na\(\)”। মানে “NA” হওয়া যাবে না। method="anova", আমরা ক্লাসিফাই করছি না - বরং দরকার আমাদের কন্টিনিউয়াস ভ্যারিয়েবল। চলুন বাড়তে দেই আমাদের নতুন ডিসিশন ট্রি। বাকি বয়সগুলো থেকে তৈরি করি আমাদের নতুন বয়স। বিশেষ করে যেখানে বয়সের ঘর ফাঁকা। মজা না?
 
-&gt; FillAge &lt;- rpart\(Age ~ Pclass + Mother + FamilySize + Sex + SibSp + Parch + Deck + Fare + Embarked + Title + FamilyID + FamilySize + FamilySizeGroup, data=combined\_set\[!is.na\(combined\_set$Age\),\], method="anova"\)
+> &gt; FillAge &lt;- rpart\(Age ~ Pclass + Mother + FamilySize + Sex + SibSp + Parch + Deck + Fare + Embarked + Title + FamilyID + FamilySize + FamilySizeGroup, data=combined\_set\[!is.na\(combined\_set$Age\),\], method="anova"\)
 
 ডিসিশন ট্রি’র আউটপুট নিয়ে সেটা পাঠিয়ে দিলাম প্রেডিক্ট ফাংশনে। এরপর সেটাকে ভর্তি করতে বললাম যেখানে কোন ভ্যালু নেই।
 
-&gt; combined\_set$Age\[is.na\(combined\_set$Age\)\] &lt;- predict\(FillAge, combined\_set\[is.na\(combined\_set$Age\),\]\)
+> &gt; combined\_set$Age\[is.na\(combined\_set$Age\)\] &lt;- predict\(FillAge, combined\_set\[is.na\(combined\_set$Age\),\]\)
 
 আবার সামারি কমান্ড দিয়ে দেখলে দেখবেন সব ফকফকা। মানে, সব “NA” গায়েব। সেখানে এসে ঢুকে গেছে নতুন প্রেডিক্টেড ভ্যালু। খুব স্মার্ট না?
 
-&gt; summary\(combined\_set$Age\)
-
-Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
-
-0.17   22.00   28.86   29.70   36.50   80.00
+> &gt; summary\(combined\_set$Age\)
+>
+> Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+>
+> 0.17   22.00   28.86   29.70   36.50   80.00
 
 এখন দেখি, পুরো ডাটাসেটের কি অবস্থা?
 
@@ -55,27 +55,27 @@ embarked ----&gt; কোথা থেকে উঠেছেন, বিশেষ 
 
 বোঝা যাচ্ছে দুটো প্যাসেঞ্জারের ঘর ফাঁকা আছে। এখানে একটা কথা না বললেই নয়। "NA" আর "ব্ল্যাংক" ঘরের মধ্যে পার্থক্য আছে।  এখানে $Embarked ঘরটা আসলে ফাঁকা। ব্ল্যাংক। "NA" নয়। যাই হোক ক্লিন করতে বসে ঘোমটা দিয়ে থাকলে তো আর হবে না। ফেলে দেই দুটো ঘরকে। কোন দুটো ঘর তাহলে?
 
-&gt;which\(combined\_set$Embarked == ''\)
-
-\[1\]  62         830          -------&gt; দুটো ঘরে। আমাদের আগের হিসেবে দেখা গেছে S = Southampton থেকে মানুষ উঠেছেন বেশি।
-
-combined\_set$Embarked\[c\(62,830\)\] = "S"  ------&gt; তাহলে S = Southampton দিয়েই ভর্তি করি ফাঁকা ঘরটা।
-
-combined\_set$Embarked &lt;- factor\(combined\_set$Embarked\)  --------&gt; পাল্টে নিয়ে আসি আমাদের ফ্যাক্টরে।
+> &gt;which\(combined\_set$Embarked == ''\)
+>
+> \[1\]  62         830          -------&gt; দুটো ঘরে। আমাদের আগের হিসেবে দেখা গেছে S = Southampton থেকে মানুষ উঠেছেন বেশি।
+>
+> combined\_set$Embarked\[c\(62,830\)\] = "S"  ------&gt; তাহলে S = Southampton দিয়েই ভর্তি করি ফাঁকা ঘরটা।
+>
+> combined\_set$Embarked &lt;- factor\(combined\_set$Embarked\)  --------&gt; পাল্টে নিয়ে আসি আমাদের ফ্যাক্টরে।
 
 $Fare এর মধ্যে একটা মাত্র "NA" আছে। আমাদের কষ্ট কমে গেল।
 
-&gt; summary\(combined\_set$Fare\)
-
-Min.      1st Qu.      Median        Mean     3rd Qu.       Max.       NA's
-
-0.000       7.896       14.454       33.295    31.275      512.329       1
+> &gt; summary\(combined\_set$Fare\)
+>
+> Min.      1st Qu.      Median        Mean     3rd Qu.       Max.       NA's
+>
+> 0.000       7.896       14.454       33.295    31.275      512.329       1
 
 তো "NA"টা আছে কোথায়?
 
-&gt; which\(is.na\(combined\_set$Fare\)\)
-
-\[1\] 1044   ------&gt; ১০৪৪ এর ঘরে।
+> &gt; which\(is.na\(combined\_set$Fare\)\)
+>
+> \[1\] 1044   ------&gt; ১০৪৪ এর ঘরে।
 
 আমাদের সব প্যাসেঞ্জারদের ভাড়ার "গড়" ভ্যালুটা পাঠিয়ে দেই ওই ঘরে।
 
@@ -91,7 +91,9 @@ library\('lattice'\)
 
 এরপর কমান্ড দেই প্যাটার্নের। কোন মিসিং ভ্যালু নেই আর। অল সেট আমরা!
 
-&gt;md.pattern\(combined\_set\)![](/assets/mice.png)আমাদের কাজ প্রায় শেষ। এখন একটা প্রেডিকশনের পালা। করবেন কি আপনি? পুরানো ডিসিশন ট্রি দিয়েই তবে নতুন "মিসিং ডাটা" ছাড়া ডাটা দিয়ে। আগে যা করেছি সেখানে অনেক ডাটা "মিসিং" ছিলো। গিটহাবের স্ক্রিপ্টটা দেখবেন ভালো করে। আসল ঘটনা ওই স্ক্রিপ্টে। সত্যি বলছি। অনেক কারুকাজ আছে ওখানে।
+&gt;md.pattern\(combined\_set\)![](/assets/mice.png)**ছবি: কোন মিসিং ভ্যালু নেই এখানে**
+
+আমাদের কাজ প্রায় শেষ। এখন একটা প্রেডিকশনের পালা। করবেন কি আপনি? পুরানো ডিসিশন ট্রি দিয়েই তবে নতুন "মিসিং ডাটা" ছাড়া ডাটা দিয়ে। আগে যা করেছি সেখানে অনেক ডাটা "মিসিং" ছিলো। গিটহাবের স্ক্রিপ্টটা দেখবেন ভালো করে। আসল ঘটনা ওই স্ক্রিপ্টে। সত্যি বলছি। অনেক কারুকাজ আছে ওখানে।
 
 ### ব্যবহৃত গিটহাব স্ক্রিপ্ট \(অনলাইন\)
 
