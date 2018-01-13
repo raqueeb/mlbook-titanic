@@ -277,7 +277,7 @@ write.csv\(submit, file = "prediction5th.csv", row.names = FALSE\)![](/assets/su
 
 ---
 
-[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/5th-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/5th-prediction.R)
+[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/5th-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/5th-prediction.R) অথবা আরো অ্যাডভেঞ্চারাস হলে https://github.com/raqueeb/mltraining/blob/master/ML-workbook/5th-prdiction-test.R 
 
 আপনার কাজ হচ্ছে এই স্ক্রিপ্টগুলোকে ভুল প্রমান করা। মানে, আরো ভালো অ্যাক্যুরেসি'র স্ক্রিপ্ট তৈরী করা। তাহলেই আমার শান্তি। আপনার কাছে শিখতে চাই আমি। সত্যি!
 
