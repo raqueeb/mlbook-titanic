@@ -19,6 +19,7 @@
   * [২.১. মেশিন লার্নিং হ্যাক](seeing-the-future/hack.md)
   * [২.২. ভবিষ্যৎ দেখার ধারণা + ডাটার গল্প বলার ক্ষমতা](seeing-the-future/seeing-future.md)
   * [২.৩. মৃত্যু অ্যালগরিদম ](seeing-the-future/death-algo.md)
+  * [২.৪. দেশের নীতিনির্ধারণী ড্যাশবোর্ড ](seeing-the-future/government-dashboard.md)
 * [পর্ব ৩: মেশিন লার্নিং কি? \(৩০ মিনিট\)](introduction/README.md)
   * [৩.১. মেশিন লার্নিং জিনিসটা কি?](introduction/what-is-ml.md)
   * [৩.২. কেন দরকার মেশিন লার্নিং?](introduction/why-needed.md)
