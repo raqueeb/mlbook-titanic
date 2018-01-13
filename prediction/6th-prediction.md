@@ -45,10 +45,9 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
 &gt; summary\(combined\_set$Embarked\)
 
 ```
-  C       Q        S
+       C           Q          S
+  2   270         123        914
 ```
-
-2   270  123    914
 
 মনে আছে তো আগের ঘটনা?
 
@@ -98,7 +97,7 @@ library\('lattice'\)
 
 ---
 
-https://github.com/raqueeb/mltraining/blob/master/ML-workbook/6th-prediction.R
+[https://github.com/raqueeb/mltraining/blob/master/ML-workbook/6th-prediction.R](https://github.com/raqueeb/mltraining/blob/master/ML-workbook/6th-prediction.R)
 
 কি হলো? খুব একটা এগুতে পারিনি আমরা লিডারবোর্ডে। কেন? ডাটা তো সব ভর্তি। কি হলো তাহলে? সব ভ্যারিয়েবল কি নেয়া ঠিক হয়েছে?
 
