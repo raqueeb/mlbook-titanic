@@ -14,8 +14,9 @@
   * [০.৫. সরকারি ওপেন ডাটা](changing-world/govt-open-data.md)
   * [০.৬ প্রাইভেট সেক্টর + পাবলিক সেক্টর \(ডাটা শেয়ারিং\)](changing-world/social-media.md)
   * [০.৭. আর্টিফিসিয়াল ইন্টেলিজেন্স - মেশিন লার্নিংএর প্রসার](changing-world/ai-industry.md)
-* [মেশিন লার্নিং হ্যাক](hack.md)
-* [ভবিষ্যৎ দেখার ধারণা](seeing-future.md)
+* [পর্ব ২: ডাটা থেকে ভবিষ্যৎ দেখার ধারণা ](seeing-the-future/README.md)
+  * ২.২. মেশিন লার্নিং হ্যাক
+  * [২.৩. ভবিষ্যৎ দেখার ধারণা](seeing-the-future/seeing-future.md)
 * [পর্ব ১: মেশিন লার্নিং কি? \(৩০ মিনিট\)](introduction/README.md)
   * [১.১. মেশিন লার্নিং জিনিসটা কি?](introduction/what-is-ml.md)
   * [১.২. কেন দরকার মেশিন লার্নিং?](introduction/why-needed.md)
@@ -52,9 +53,5 @@
   * [৫.৭. পঞ্চম প্রেডিকশন \(ফিচার ইঞ্জিনিয়ারিং\)](prediction/5thprediction.md)
   * [৫.৮. ডাটা প্রি-প্রসেসিং, ডাটা ক্লিনিং এবং ষষ্ঠ প্রেডিকশন](prediction/6th-prediction.md)
   * [৫.৯. সপ্তম প্রেডিকশন \(র‌্যান্ডম ফরেস্ট\)](prediction/7th-prediction.md)
-* [পর্ব ৬: কি আছে সামনে?](whats-in-future/README.md)
-  * [৬.১. কি শিখলাম আমরা?](whats-in-future/learning-so-far.md)
-  * [৬.২. কোথায় যাচ্ছি  এর পর?](whats-in-future/in-future.md)
-  * [৬.৩. সামনের বই ](whats-in-future/new-book.md)
-  * [৬.৪. যোগাযোগের মাধ্যম ](whats-in-future/communications.md)
+* পর্ব ২: ডাটা থেকে ভবিষ্যৎ দেখার ধারণা 
 
