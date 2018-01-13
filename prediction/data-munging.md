@@ -31,9 +31,7 @@ col=c\("yellow", "black"\), legend=FALSE\)
 
 > ```
 >     barplot(table(train$Survived),      # train ডাটাফ্রেমে Survived কলামের বারপ্লট
->     
 >     names.arg = c("Perished", "Survived"),    # বারপ্লটগুলোর নিচে বোঝার জন্য কিছু নাম
->
 >     main="Survived (passenger fate)", col="black")    # সেটার ওপরে কি টাইটেল হবে?
 > ```
 >
@@ -44,6 +42,8 @@ col=c\("yellow", "black"\), legend=FALSE\)
 > ```
 
 ![](/assets/bar1.jpg)![](/assets/bar2.jpg)
+
+**ছবি: প্রায় সব কলামের বারপ্লট** 
 
 আপনি বলুন, কি বলছে ছবিগুলো? প্রথম কয়েকটা ছবির মানে এমন হতে পারে; \(প্রথম প্রেডিকশনে কিন্তু জানা গিয়েছে ব্যাপারগুলো\)
 
