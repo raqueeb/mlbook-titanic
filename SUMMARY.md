@@ -53,5 +53,9 @@
   * [৭.৭. পঞ্চম প্রেডিকশন \(ফিচার ইঞ্জিনিয়ারিং\)](prediction/5thprediction.md)
   * [৭.৮. ডাটা প্রি-প্রসেসিং, ডাটা ক্লিনিং এবং ষষ্ঠ প্রেডিকশন](prediction/6th-prediction.md)
   * [৭.৯. সপ্তম প্রেডিকশন \(র‌্যান্ডম ফরেস্ট\)](prediction/7th-prediction.md)
-* [পর্ব ৮: কি আছে সামনে?](.md)
+* [পর্ব ৮: কি আছে সামনে?](whats-in-future/README.md)
+  * [৮.১. কি শিখলাম আমরা?](whats-in-future/learning-so-far.md)
+  * [৮.২. কোথায় যাচ্ছি এর পর?](whats-in-future/unsupervised.md)
+  * ৮.৩. সামনের বই এবং "আর্লি এক্সেস টীম"
+  * ৮.৪. যোগাযোগের মাধ্যম 
 
