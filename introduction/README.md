@@ -1,4 +1,8 @@
-## 
+\*
+
+\*
+
+\*
 
 ## 
 
@@ -6,15 +10,15 @@
 
 ## 
 
-## 
+## পর্ব ১
 
-> A breakthrough in machine learning would be worth ten Microsofts.
->
-> — Bill Gates
-
-## মেশিন লার্নিং: হাতে কলমে - পর্ব ১
+## মেশিন লার্নিং কি? 
 
 ---
+
+> A breakthrough in machine learning would be worth ten Microsofts.
+>
+> — Bill Gates
 
 
 
