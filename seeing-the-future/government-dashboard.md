@@ -2,9 +2,9 @@
 
 ---
 
-> Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.
+> Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.
 >
-> -- Margaret Mead
+> -- Margaret Mead
 
 আচ্ছা, বলতে পারবেন, একটা দক্ষ কোম্পানি কাজ করে কিভাবে? ঠিক বলেছেন। লাভ ক্ষতির ‘স্প্রেডশীট’ দিয়ে। ইনভেস্টমেন্ট এর প্রতিটা টাকার হিসেব থাকে তাদের কাছে। কোথায় লাভ ক্ষতি হচ্ছে সেটা জানা যায় সেই ‘স্প্রেডশীট’ থেকে। ছোট কোম্পানি হলে হিসেব রাখা সুবিধা। বড় হলে বাড়তে থাকে চ্যালেঞ্জ। শত শত ডিভিশন। প্রতিটার আলাদা আলাদা হিসেব। কোনটার ২% লাভ আর কোনটার ৮০% ক্ষতি এক কাতারের সেটা জানা দুস্কর বটে। আর তাই মাল্টি-মিলিয়ন/বিলিয়ন ডলারের কোম্পানির ‘চীফ এক্সেকিউটিভ’দের কাছে থাকে ‘ড্যাশবোর্ড’। হাই-লেভেলের ধারণার জন্য। কোথায় কি হচ্ছে সেটার একটা ‘ব্রড পারপেক্টিভ’ হিসেব। চাইলে ভেতরের খবর জানা যায় এক ক্লিকে।
 
