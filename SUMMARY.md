@@ -55,7 +55,7 @@
   * [৭.৯. সপ্তম প্রেডিকশন \(র‌্যান্ডম ফরেস্ট\)](prediction/7th-prediction.md)
 * [পর্ব ৮: কি আছে সামনে?](whats-in-future/README.md)
   * [৮.১. কি শিখলাম আমরা?](whats-in-future/learning-so-far.md)
-  * [৮.২. কোথায় যাচ্ছি এর পর?](whats-in-future/unsupervised.md)
-  * ৮.৩. সামনের বই এবং "আর্লি এক্সেস টীম"
-  * ৮.৪. যোগাযোগের মাধ্যম 
+  * [৮.২. কোথায় যাচ্ছি এর পর?](whats-in-future/in-future.md)
+  * [৮.৩. সামনের বই এবং "আর্লি এক্সেস টীম"](whats-in-future/new-book.md)
+  * [৮.৪. যোগাযোগের মাধ্যম ](whats-in-future/communications.md)
 
