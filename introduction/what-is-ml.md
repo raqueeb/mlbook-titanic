@@ -2,7 +2,7 @@
 
 ---
 
-> Machine learning is an application of artificial intelligence \(AI\) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. 
+> Machine learning is an application of artificial intelligence \(AI\) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
 >
 > Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
 
@@ -15,6 +15,8 @@
 আচ্ছা, ছবি দেবো কি একটা?![](/assets/def.png)
 
 ---
+
+**ছবি: সনাতন প্রোগ্রামিং আর মেশিন লার্নিং এর মধ্যে পার্থক্য **
 
 কৃত্তিম বুদ্ধিমত্তার একটা ভাগ হচ্ছে মেশিন লার্নিং। এটা এমন একটা অ্যাপ্লিকেশন যা কয়েকটা জিনিস করে:
 
