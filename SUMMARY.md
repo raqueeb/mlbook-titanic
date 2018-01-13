@@ -14,6 +14,7 @@
   * [১.৫. সরকারি ওপেন ডাটা](changing-world/govt-open-data.md)
   * [১.৬ প্রাইভেট সেক্টর + পাবলিক সেক্টর \(ডাটা শেয়ারিং\)](changing-world/social-media.md)
   * [১.৭. আর্টিফিসিয়াল ইন্টেলিজেন্স - মেশিন লার্নিংএর প্রসার](changing-world/ai-industry.md)
+  * [১.৮. মেশিন লার্নিং ব্যবহারে এগিয়ে যে ইন্ডাস্ট্রিগুলো](changing-world/machine-learning-industry.md)
 * [পর্ব ২: ডাটা থেকে ভবিষ্যৎ দেখার ধারণা ](seeing-the-future/README.md)
   * ২.২. মেশিন লার্নিং হ্যাক
   * [২.৩. ভবিষ্যৎ দেখার ধারণা](seeing-the-future/seeing-future.md)
