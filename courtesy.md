@@ -8,9 +8,9 @@
 
 ---
 
-> Formal education will make you a living; self-education will make you a fortune.
+> Gratitude is riches. Complaint is poverty. 
 >
-> -– Jim Rohn
+> -- Doris Day
 
 \*
 
