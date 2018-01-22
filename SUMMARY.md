@@ -1,6 +1,7 @@
 # Summary
 
 * [হাতে কলমে মেশিন লার্নিং](README.md)
+* [উৎসর্গ ](dedication.md)
 * [প্রথম পাতা](intro.md)
 * [মুখবন্ধ](forward.md)
 * [কৃতজ্ঞতা](courtesy.md)
