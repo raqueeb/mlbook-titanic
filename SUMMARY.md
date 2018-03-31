@@ -63,4 +63,5 @@
   * [৮.২. কোথায় যাচ্ছি এর পর?](whats-in-future/in-future.md)
   * [৮.৩. সামনের বই](whats-in-future/new-book.md)
   * [৮.৪. যোগাযোগের মাধ্যম](whats-in-future/communications.md)
+* [পর্ব ৯: পাইথনে টাইটানিক প্রজেক্ট](j_notebook/readme.md)
 
