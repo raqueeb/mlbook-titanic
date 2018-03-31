@@ -64,4 +64,5 @@
   * [৮.৩. সামনের বই](whats-in-future/new-book.md)
   * [৮.৪. যোগাযোগের মাধ্যম](whats-in-future/communications.md)
 * [পর্ব ৯: পাইথনে টাইটানিক প্রজেক্ট](j_notebook/readme.md)
+  * [জুপিটারে প্রজেক্ট টাইটানিক](j_notebook/titanic-project-test.md)
 
