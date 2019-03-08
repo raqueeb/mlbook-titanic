@@ -2,6 +2,8 @@
 
 ### _ধারণা সাথে বিশ্বসেরা প্রজেক্ট 'টাইটানিক '_
 
+দ্বিতীয় সংস্করণ প্রিন্ট এডিশন পাবেন [এখানে](https://rokomari.com/book/174186): https://rokomari.com/book/174186
+
 ---
 
 > #### A breakthrough in machine learning would be worth ten Microsofts.
