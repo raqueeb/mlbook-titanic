@@ -2,7 +2,9 @@
 
 ### _ধারণা সাথে বিশ্বসেরা প্রজেক্ট 'টাইটানিক '_
 
-দ্বিতীয় সংস্করণ প্রিন্ট এডিশন পাবেন [এখানে](https://rokomari.com/book/174186): https://rokomari.com/book/174186
+দ্বিতীয় সংস্করণ প্রিন্ট এডিশন পাবেন [এখানে](https://rokomari.com/book/174186): [https://rokomari.com/book/174186](https://rokomari.com/book/174186)/
+
+পুরানো- [প্রথম সংস্করণ](https://www.rokomari.com/book/160337/) https://www.rokomari.com/book/160337/
 
 ---
 
