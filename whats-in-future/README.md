@@ -1,8 +1,4 @@
-## 
-
-## 
-
-## 
+# পর্ব ৮: কি আছে সামনে?
 
 > A breakthrough in machine learning would be worth ten Microsofts.
 >
@@ -11,8 +7,4 @@
 ## পর্ব ৮
 
 ## কি আছে সামনে?
-
----
-
-
 

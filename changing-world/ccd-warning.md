@@ -1,6 +1,4 @@
-### সিডিসি’র ওয়ার্নিং
-
----
+# ১.১. সিডিসি’র ওয়ার্নিং
 
 > Numbers have an important story to tell. They rely on you to give them a voice.
 >

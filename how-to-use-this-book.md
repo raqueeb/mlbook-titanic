@@ -1,10 +1,4 @@
-### 
-
-### 
-
-### কিভাবে পড়বেন বইটা?
-
----
+# কিভাবে পড়বেন বইটা?
 
 > The hungrier one becomes, the clearer one’s mind works— also the more sensitive one becomes to the odors of food.
 >

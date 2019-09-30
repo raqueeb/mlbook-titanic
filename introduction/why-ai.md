@@ -1,12 +1,10 @@
-### মেশিন লার্নিং এর কিছু ভাগ
-
----
+# ৩.৩. মেশিন লার্নিং এর কিছু ভাগ
 
 > Suppose you are providing solution to your kids for each and every situation in their life, it is called your kids are supervised. But, if your kids take their decisions out of their own understanding, it is called your kids are unsupervised.
 >
 > -- Answer in Quora
 
-শেখানোর ধারণায় মেশিন লার্নিংকে দুটো বড় ক্যাটাগরিতে ভাগ করা যায়। আমি আবারো বলছি - বড় দুটো ক্যাটাগরিতে। 
+শেখানোর ধারণায় মেশিন লার্নিংকে দুটো বড় ক্যাটাগরিতে ভাগ করা যায়। আমি আবারো বলছি - বড় দুটো ক্যাটাগরিতে।
 
 ১. “সুপারভাইজড” লার্নিং
 

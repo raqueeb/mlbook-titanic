@@ -1,6 +1,4 @@
-### ইন্টারকানেকশন কস্ট মডেলিং
-
----
+# ১.২. ইন্টারকানেকশন কস্ট মডেলিং
 
 > A point of view can be a dangerous luxury when substituted for insight and understanding.
 >

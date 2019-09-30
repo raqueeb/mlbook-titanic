@@ -1,6 +1,4 @@
-### কারা পড়তে চাইবেন বইটা?
-
----
+# কাদের জন্য বইটা?
 
 > A year spent in artificial intelligence is enough to make one believe in God.
 >
