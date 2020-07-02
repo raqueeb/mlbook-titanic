@@ -37,3 +37,20 @@ echo 'You got to trust me on this, I saved the world'
 | ২য় | [প্রজেক্টের গিটহাব স্ক্রিপ্ট](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/github-script) | [প্রজেক্ট টাইটানিক + 'আর' ষ্টুডিও](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) |
 | ৩য় | [প্রজেক্ট টাইটানিক + 'আর' ষ্টুডিও, ওয়েব ভার্সন](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) | [টাইটানিকের ডাটাসেট - সাইট ক্যাগল](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) |
 
+### ৩য় সপ্তাহ
+
+| দিন | বিষয় | কি শিখলাম? |
+| :--- | :--- | :--- |
+| ১ম | [প্রথম প্রেডিকশন, সবাই কি মারা গিয়েছেন?](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/1stprediction) | [এক্সপ্লোরেটরি ডাটা অ্যানালাইসিস, ক্যাগল সাবমিশন](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/1stprediction) |
+| ২য় | [ডাটা ভিজ্যুয়ালাইজেশন, ছবির কথা](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/data-munging) | [কি তথ্য পেলাম ডাটা ভিজ্যুয়ালাইজেশন থেকে?](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/data-munging) |
+| ৩য় | [দ্বিতীয় প্রেডিকশন, মহিলা না পুরুষ?](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/2ndprediction) | [মহিলা এবং বাচ্চাদের আগে](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/2ndprediction) |
+
+### ৪র্থ সপ্তাহ 
+
+| দিন | বিষয় | কি শিখলাম? |
+| :--- | :--- | :--- |
+| ১ম | [মৃত্যুর সাথে টিকিটের দামের সম্পর্ক](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/3rdprediction) | [তৃতীয় প্রেডিকশন, "এগ্রিগেট” কমান্ড](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/3rdprediction) |
+| ২য় | [ডিসিশন ট্রি, চতুর্থ প্রেডিকশন](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/decision-tree) | [rpart, প্রেডিক্টিভ এলিমেন্ট](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/4thprediction) |
+| ৩য় | [ডাটা প্রি-প্রসেসিং, ফিচার ইঞ্জিনিয়ারিং](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/5thprediction) | [ডাটা ক্লিনিং, ডাটাকে ঠিক করা](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/6th-prediction) |
+| ৪র্থ | [সপ্তম প্রেডিকশন \(র‌্যান্ডম ফরেস্ট\)](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/7th-prediction) | [মেশিন লার্নিং এবং আমাদের ভবিষ্যৎ](https://rakibul-hassan.gitbook.io/mlbook-titanic/whats-in-future/in-future)  |
+
