@@ -31,3 +31,9 @@ echo 'You got to trust me on this, I saved the world'
 
 ### ২য় সপ্তাহ
 
+| দিন | বিষয় | কি শিখলাম? |
+| :--- | :--- | :--- |
+| ১ম | ["আর" প্রোগ্রামিং এনভায়রনমেন্ট](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-r-studio) | ["আর" + "আর" ষ্টুডিও এর ব্যবহার](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-studio-installation) |
+| ২য় | [প্রজেক্টের গিটহাব স্ক্রিপ্ট](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/github-script) | [প্রজেক্ট টাইটানিক + 'আর' ষ্টুডিও](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) |
+| ৩য় | [প্রজেক্ট টাইটানিক + 'আর' ষ্টুডিও, ওয়েব ভার্সন](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) | [টাইটানিকের ডাটাসেট - সাইট ক্যাগল](https://rakibul-hassan.gitbook.io/mlbook-titanic/r-environment/r-commands) |
+
