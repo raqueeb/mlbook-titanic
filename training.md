@@ -33,3 +33,16 @@
 | ৩য় | [ডাটা প্রি-প্রসেসিং, ফিচার ইঞ্জিনিয়ারিং](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/5thprediction) | [ডাটা ক্লিনিং, ডাটাকে ঠিক করা](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/6th-prediction) |
 | ৪র্থ | [সপ্তম প্রেডিকশন \(র‌্যান্ডম ফরেস্ট\)](https://rakibul-hassan.gitbook.io/mlbook-titanic/prediction/7th-prediction) | [মেশিন লার্নিং এবং আমাদের ভবিষ্যৎ](https://rakibul-hassan.gitbook.io/mlbook-titanic/whats-in-future/in-future)  |
 
+### বইয়ের লিংক
+
+| মিডিয়ামের নাম | লিংক |
+| :--- | :--- |
+|  [অনলাইন লিংক](https://rakibul-hassan.gitbook.io/mlbook-titanic/) | [গিটবুক](https://rakibul-hassan.gitbook.io/mlbook-titanic/) |
+|  [প্রিন্ট বই, রকমারি](https://rokomari.com/book/174186/) | [রকমারি.কম](https://rokomari.com/book/174186/) |
+|  [প্রিন্ট বই, আদর্শ](https://adarsha.com.bd/shop/hatekolome-machine-learning/) | [আদর্শ প্রকাশনী](https://adarsha.com.bd/shop/hatekolome-machine-learning/) |
+| [ প্রিন্ট বই, নীলক্ষেত](https://www.facebook.com/%E0%A6%B9%E0%A6%95-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A7%80%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-996072720590097/) | [হক, মানিক লাইব্রেরি সহ অনেকে, ০১৭৩৫৭৪২৯০৮, ০১৮২০১৫৭১৮১ ](https://www.facebook.com/ManikLibraryOnline) |
+|  [ইবুক, আমাজন](https://www.amazon.com/dp/B089NTNG3R/) | [কিন্ডল এডিশন](https://www.amazon.com/dp/B089NTNG3R/) |
+|  [ইবুক, গুগল বুকস](https://play.google.com/store/books/details?id=7xbpDwAAQBAJ) | [বাংলাদেশে গুগল প্লে অ্যাপ](https://play.google.com/store/books/details?id=7xbpDwAAQBAJ) |
+
+
+
